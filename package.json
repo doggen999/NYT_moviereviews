@@ -1,0 +1,51 @@
+{
+  "name": "NYTimes_Movie_reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server ./",
+    "build": "webpack --config webpack.dev.js",
+    "build:watch": "webpack --watch --config webpack.dev.js",
+    "bundle": "webpack -p --config webpack.prod.js",
+    "bundle:analyze": "webpack -p --config webpack.prod.analyze.js",
+    "dev": "npm-run-all build:watch"
+  },
+  "keywords": [],
+  "author": "Natan Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "compression-webpack-plugin": "^1.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fs": "0.0.1-security",
+    "http-server": "^0.10.0",
+    "npm-run-all": "^4.1.1",
+    "stylelint-config-standard": "^17.0.0",
+    "webpack": "^3.6.0",
+    "webpack-babel-jest": "^1.0.4",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "uglifyjs-webpack-plugin": "^0.4.6"
+  }
+}

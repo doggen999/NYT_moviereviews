@@ -1,0 +1,5 @@
+export const MOVIES_IS_LOADING = 'MOVIES_IS_LOADING'
+export const ITEMS_FETCH_DATA_SUCCESS = 'ITEMS_FETCH_DATA_SUCCESS'
+export const MOVIES_HAS_ERRORED = 'MOVIES_HAS_ERRORED'
+export const SEARCH_IN_PROGRESS = 'SEARCH_IN_PROGRESS'
+export const ENDPOINT = 'https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=21a9ce9ae74a4464b148568b98d3e5de'
